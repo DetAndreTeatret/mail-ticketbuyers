@@ -2,8 +2,8 @@
   "name": "mail-ticketbuyers",
   "version": "1.0.0",
   "scripts": {
-    "runDaytime": "node build/main.js --daytime",
-    "runNighttime": "node build/main.js --nighttime"
+    "runDaytime": "node build/main.js --day",
+    "runNighttime": "node build/main.js --night"
   },
   "author": "Simon",
   "license": "MIT",
