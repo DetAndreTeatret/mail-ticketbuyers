@@ -7,9 +7,8 @@ async function getBrowser() {
   if (browser) {return browser}
 
   browser = await puppeteer.launch({
-    headless: false,
+    headless: true,
     args: ["--disable-setuid-sandbox"],
-    // slowMo: 1
   })
 
   return browser
